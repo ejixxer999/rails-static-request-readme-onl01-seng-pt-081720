@@ -21,7 +21,7 @@ group :development, :test do
   gem "poltergeist"
   gem "database_cleaner"
   gem "pry-byebug"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 8.0.0"
 end
 
 group :test do
